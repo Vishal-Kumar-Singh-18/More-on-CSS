@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nav bar with border</title>
+    <style>
+      .nav {
+        background-color: rgb(111, 167, 199);
+        padding: 1rem;
+      }
+      .link {
+        color: white;
+        margin: 3rem;
+      }
+
+      .link:hover {
+        color: red;
+      }
+
+      .link-home {
+        border: 5px solid black;
+        padding: 2px;
+      }
+
+      .link-about {
+        border: 5px dashed rgb(209, 33, 142);
+        padding: 2px;
+      }
+
+      .link-contact {
+        border: 5px dotted rgb(248, 243, 243);
+        padding: 2px;
+      }
+
+      .link-blog {
+        border: 5px groove rgb(243, 5, 5);
+        padding: 2px;
+      }
+
+      .link-login {
+        border: 5px ridge rgb(59, 66, 68);
+        border-top: 5px dotted rgb(245, 229, 11);
+        border-bottom: 5px dotted rgb(245, 229, 11);
+        padding: 2px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="nav">
+      <a class="link link-home" href="">Home</a>
+      <a class="link link-about" href="">About Us</a>
+      <a class="link link-contact" href="">Contact</a>
+      <a class="link link-blog" href="">Blog</a>
+      <a class="link link-login" href="">Login</a>
+    </nav>
+  </body>
+</html>
